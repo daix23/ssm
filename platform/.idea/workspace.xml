@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2385a47-29da-4dfe-a802-b02dbbebe5a8" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\IdeaProjects\SSM\platform\.idea\libraries\Maven__com_alibaba_druid_1_0_31.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform.iml" afterPath="$PROJECT_DIR$/platform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/platform_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/platform_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b2385a47-29da-4dfe-a802-b02dbbebe5a8" name="Default" comment="" />
     <ignored path="platform.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498091927020" ignored="false" />
