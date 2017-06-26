@@ -28,8 +28,8 @@
         <property name="acquireRetryAttempts" value="2" />
     </bean>-->
     <!-- 数据源 org.apache.commons.dbcp.BasicDataSource com.alibaba.druid.pool.DruidDataSource -->
-    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="driverClassName" value="${jdbc.driver}" />
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+    <property name="driverClassName" value="${jdbc.driver}" />
         <property name="url" value="${jdbc.url}" />
         <property name="username" value="${jdbc.username}" />
         <property name="password" value="${jdbc.password}" />
@@ -55,9 +55,12 @@
         <property name="removeAbandonedTimeout" value="1800" />
         <!-- 关闭abanded连接时输出错误日志 -->
         <property name="logAbandoned" value="true" />
-        <!-- 监控数据库 -->
-        <!-- <property name="filters" value="stat" /> -->
-        <property name="filters" value="mergeStat" />
+        <!-- Druid内置提供一个StatFilter，用于统计监控信息。监控数据库 -->
+        <!--属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有：
+               监控统计用的filter:stat
+               日志用的filter:log4j
+              防御SQL注入的filter:wall -->
+         <property name="filters" value="stat" />
     </bean>
 
     <!-- 3.配置SqlSessionFactory对象 -->
