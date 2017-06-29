@@ -30,6 +30,14 @@
     from coordinates
     where id = #{id,jdbcType=INTEGER}
   </select>
+    <select id="queryAll"  resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from coordinates
+        ORDER BY
+        modifyTime
+        DESC
+    </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     <!--
       WARNING - @mbg.generated

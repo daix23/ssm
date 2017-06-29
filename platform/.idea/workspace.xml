@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2385a47-29da-4dfe-a802-b02dbbebe5a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform.iml" afterPath="$PROJECT_DIR$/platform.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="platform.iws" />
@@ -58,7 +63,8 @@
     <file path="/FileUtil.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498638536815" ignored="false" />
     <file path="/spring-web.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498640048981" ignored="false" />
     <file path="/Coordinates.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498702501324" ignored="false" />
-    <file path="/CoordinatesMapperTest.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498703939259" ignored="false" />
+    <file path="/CoordinatesMapperTest.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498720441092" ignored="false" />
+    <file path="/CoordinatesMapper.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498719655895" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,29 +126,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GeneratorUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/GeneratorUtil.java">
+      <file leaf-file-name="CoordinatesMapperTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="3" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="69" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoordinatesMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="8" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="64" column="55" selection-start="1869" selection-end="1870" vertical-scroll-proportion="0.20907298">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2550#2563#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,16 +141,7 @@
       <file leaf-file-name="CoordinatesMapper.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="20" selection-start="3384" selection-end="3396" vertical-scroll-proportion="-7.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoordinatesMapperTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="35" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.16179">
+            <state line="38" column="12" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,37 +156,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersMapperTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/UsersMapperTest.java">
+      <file leaf-file-name="UsersMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/UsersMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="676" selection-end="1079" vertical-scroll-proportion="0.0">
+            <state line="4" column="17" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersMapper.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
+      <file leaf-file-name="UploadfileMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/UploadfileMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="56" column="3" selection-start="1425" selection-end="1611" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadfileMapperTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/UploadfileMapperTest.java">
+      <file leaf-file-name="UploadfileServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/UploadfileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coordinates.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/Coordinates.java">
+      <file leaf-file-name="UsersServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/UsersServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="6" selection-start="4973" selection-end="4973" vertical-scroll-proportion="0.0">
+            <state line="18" column="55" selection-start="517" selection-end="588" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinatesMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="30" selection-start="1684" selection-end="1692" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadfileService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/UploadfileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,8 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UploadfileMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/code/dao/UploadfileMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/UploadfileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/UploadfileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadfile.jsp" />
@@ -239,9 +239,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/code/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/web/UploadfileController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/entity/Coordinates.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java" />
       </list>
@@ -893,7 +895,7 @@
       <recent name="D:\IdeaProjects\SSM\platform\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CoordinatesMapperTest.testUpdateSelective">
+  <component name="RunManager" selected="JUnit.CoordinatesMapperTest.testSelectAll">
     <configuration default="false" name="GeneratorUtil" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -919,34 +921,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UploadfileMapperTest.testQueryAll" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.code.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="platform" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.code.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.code.dao.UploadfileMapperTest" />
-      <option name="METHOD_NAME" value="testQueryAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1019,6 +993,34 @@
       <option name="PACKAGE_NAME" value="com.code.dao" />
       <option name="MAIN_CLASS_NAME" value="com.code.dao.CoordinatesMapperTest" />
       <option name="METHOD_NAME" value="testUpdateSelective" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoordinatesMapperTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.code.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="platform" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.code.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.code.dao.CoordinatesMapperTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1271,18 +1273,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8" />
       <item index="1" class="java.lang.String" itemvalue="Application.GeneratorUtil" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UploadfileMapperTest.testQueryAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.getCoorById" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testInsert" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testUpdateSelective" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.getCoorById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testInsert" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testUpdateSelective" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testSelectAll" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testUpdateSelective" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testInsert" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.getCoorById" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GeneratorUtil" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UploadfileMapperTest.testQueryAll" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testSelectAll" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testUpdateSelective" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.testInsert" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CoordinatesMapperTest.getCoorById" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GeneratorUtil" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1318,8 +1320,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1340,8 +1342,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.7039106" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29608938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.62122905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37877095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1414,82 +1416,89 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="11" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/GeneratorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="69" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../空间地理大数据目录与元数据系统/trunk/survey_catalog/src/com/zjasm/model/GpsData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.0981066">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../空间地理大数据目录与元数据系统/trunk/survey_catalog/src/com/zjasm/controller/GpsDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="27" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.568662">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../空间地理大数据目录与元数据系统/trunk/survey_catalog/src/com/zjasm/service/GpsDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.33390707">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../空间地理大数据目录与元数据系统/trunk/survey_catalog/src/com/zjasm/service/impl/GpsDataServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../空间地理大数据目录与元数据系统/trunk/survey_catalog/src/com/zjasm/mapper/GpsDataMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37693632">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/Coordinates.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/code/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="6" selection-start="4973" selection-end="4973" vertical-scroll-proportion="0.0">
+        <state line="18" column="13" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/UsersMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="5" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/UploadfileMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+        <state line="24" column="62" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="90" column="19" selection-start="4458" selection-end="4458" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/UploadfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/UploadfileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="517" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/UploadfileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="3" selection-start="1425" selection-end="1611" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="30" selection-start="1684" selection-end="1692" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,31 +1509,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/UsersMapperTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.3/pagehelper-5.0.3.jar!/com/github/pagehelper/page/PageMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="676" selection-end="1079" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="8" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+        <state line="19" column="53" selection-start="725" selection-end="725" vertical-scroll-proportion="0.35062242">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="20" selection-start="3384" selection-end="3396" vertical-scroll-proportion="-7.4">
+        <state line="38" column="12" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.16179">
-          <folding />
+        <state line="64" column="55" selection-start="1869" selection-end="1870" vertical-scroll-proportion="0.20907298">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2563#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
