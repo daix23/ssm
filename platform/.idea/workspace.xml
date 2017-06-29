@@ -9,15 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/code/web/UploadfileController.java" line="84" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2385a47-29da-4dfe-a802-b02dbbebe5a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/CoordinatesMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CoordinatesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform.iml" afterPath="$PROJECT_DIR$/platform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b2385a47-29da-4dfe-a802-b02dbbebe5a8" name="Default" comment="" />
     <ignored path="platform.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498091927020" ignored="false" />
