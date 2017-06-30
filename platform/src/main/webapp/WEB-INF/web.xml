@@ -22,8 +22,13 @@
          -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:spring/spring-*.xml</param-value>
+            <param-value>classpath:spring/spring-*.xml,classpath:quartz-context.xml</param-value>
         </init-param>
+        <!--需加入此项，否则quartz不会运行-->
+        <!--在servlet的配置当中，<load-on-startup>5</load-on-startup>的含义是：标记容器是否在启动的时候就加载这个servlet。
+        当值为0或者大于0时，表示容器在应用启动时就加载这个servlet；
+        当是一个负数时或者没有指定时，则指示容器在该servlet被选择时才加载。正数的值越小，启动该servlet的优先级越高。-->
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>seckill-dispatcher</servlet-name>
