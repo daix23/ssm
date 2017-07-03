@@ -11,6 +11,19 @@
         <param-value>platform_ssm01</param-value>
     </context-param>
 
+    <!-- Spring Application Context Listener Start
+     加载应用配置文件，系统启动就运行，
+     也可使用下面的load-on-startup
+     -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:quartz-config.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <!-- Spring Application Context Listener End -->
+
     <!-- 如果是用mvn命令生成的xml，需要修改servlet版本为3.1 -->
     <!-- 配置DispatcherServlet -->
     <servlet>
@@ -22,7 +35,8 @@
          -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:spring/spring-*.xml,classpath:quartz-context.xml</param-value>
+            <param-value>classpath:spring/spring-*.xml</param-value>
+            <!--<param-value>classpath:spring/spring-*.xml,classpath:quartz-context.xml</param-value>-->
         </init-param>
         <!--需加入此项，否则quartz不会运行-->
         <!--在servlet的配置当中，<load-on-startup>5</load-on-startup>的含义是：标记容器是否在启动的时候就加载这个servlet。

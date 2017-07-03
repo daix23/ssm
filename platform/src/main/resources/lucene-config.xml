@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!-- 查找最新的schemaLocation 访问 http://www.springframework.org/schema/ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <!-- set your analyzer, to be used by the IndexWriter and QueryParser ，关于分词器，因为我们主要进行中文搜索，所以要选择好点的中文分词器，我选择了paoding-->
+    <bean id="luceneAnalyzer" class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+
+    <!-- set your Lucene directory -->
+    <!-- in this case I am pulling the location from a properties file -->
+    <!-- also, using the SimpleFSLockFactory ,数据文件存放位置设置-->
+    <bean id="luceneDirectory" class="org.apache.lucene.store.SimpleFSDirectory" >
+        <constructor-arg>
+            <bean class="java.nio.file.Path">
+                <constructor-arg value="D:\\luceneSSM" />
+            </bean>
+        </constructor-arg>
+    </bean>
+    <bean id="indexWriterConfig" class="org.apache.lucene.index.IndexWriterConfig">
+        <constructor-arg name="analyzer" ref="luceneAnalyzer"></constructor-arg>
+    </bean>
+
+    <!-- now you're ready to define the IndexWriter,这里创建 IndexWriter并引入相关bean-->
+    <bean id="indexWriter" class="org.apache.lucene.index.IndexWriter">
+        <constructor-arg name="d" ref="luceneDirectory" />
+        <constructor-arg name="conf" ref="indexWriterConfig" />
+    </bean>
+
+</beans>

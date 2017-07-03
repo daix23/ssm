@@ -46,6 +46,15 @@
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.2" />
           <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.11" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP-java6:2.3.13" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-join:6.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:6.6.0" />
+          <element id="library" level="project" name="lib" />
         </element>
       </element>
     </root>
