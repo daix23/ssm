@@ -15,6 +15,8 @@ import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apdplat.word.lucene.ChineseWordAnalyzer;
+import org.apdplat.word.segmentation.SegmentationAlgorithm;
 import org.lionsoul.jcseg.analyzer.JcsegAnalyzer;
 import org.lionsoul.jcseg.tokenizer.core.JcsegTaskConfig;
 import org.slf4j.Logger;
@@ -74,7 +76,7 @@ public class LuceneController {
         // 使用智能分词
         analyzer.setUseSmart(true);*/
 
-        Analyzer analyzer = new JcsegAnalyzer(JcsegTaskConfig.SIMPLE_MODE);
+        /*Analyzer analyzer = new JcsegAnalyzer(JcsegTaskConfig.SIMPLE_MODE);//简易模式
         //非必须(用于修改默认配置): 获取分词任务配置实例
         JcsegAnalyzer jcseg = (JcsegAnalyzer) analyzer;
         JcsegTaskConfig config = jcseg.getTaskConfig();
@@ -82,7 +84,13 @@ public class LuceneController {
         config.setAppendCJKSyn(true);
         //追加拼音到分词结果中, 需要在jcseg.properties中配置jcseg.loadpinyin=1
         config.setAppendCJKPinyin(true);
-        //更多配置, 请查看com.webssky.jcseg.core.JcsegTaskConfig类
+        //更多配置, 请查看com.webssky.jcseg.core.JcsegTaskConfig类*/
+
+        //构造一个word分析器ChineseWordAnalyzer
+        //Analyzer analyzer = new ChineseWordAnalyzer();
+        //如果需要使用特定的分词算法，可通过构造函数来指定：
+        Analyzer analyzer = new ChineseWordAnalyzer(SegmentationAlgorithm.FullSegmentation);
+        //如不指定，默认使用双向最大匹配算法：SegmentationAlgorithm.BidirectionalMaximumMatching
 
         String[] queryString = {keyword};//注意字段与值要一一对应哦，同下 ，查询内容，
         String[] fields = {"remark"};////注意字段与值要一一对应哦，同上，字段名称
@@ -118,7 +126,7 @@ public class LuceneController {
         // 使用智能分词
         analyzer.setUseSmart(true);*/
 
-        Analyzer analyzer = new JcsegAnalyzer(JcsegTaskConfig.SIMPLE_MODE);
+        /*Analyzer analyzer = new JcsegAnalyzer(JcsegTaskConfig.SIMPLE_MODE);
         //非必须(用于修改默认配置): 获取分词任务配置实例
         JcsegAnalyzer jcseg = (JcsegAnalyzer) analyzer;
         JcsegTaskConfig config = jcseg.getTaskConfig();
@@ -126,7 +134,13 @@ public class LuceneController {
         config.setAppendCJKSyn(true);
         //追加拼音到分词结果中, 需要在jcseg.properties中配置jcseg.loadpinyin=1
         config.setAppendCJKPinyin(true);
-        //更多配置, 请查看com.webssky.jcseg.core.JcsegTaskConfig类
+        //更多配置, 请查看com.webssky.jcseg.core.JcsegTaskConfig类*/
+
+        //构造一个word分析器ChineseWordAnalyzer
+        //Analyzer analyzer = new ChineseWordAnalyzer();
+        //如果需要使用特定的分词算法，可通过构造函数来指定：
+        Analyzer analyzer = new ChineseWordAnalyzer(SegmentationAlgorithm.FullSegmentation);
+        //如不指定，默认使用双向最大匹配算法：SegmentationAlgorithm.BidirectionalMaximumMatching
 
         IndexWriterConfig writerConfig = new IndexWriterConfig(analyzer);
             /*

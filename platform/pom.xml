@@ -224,6 +224,27 @@
             <artifactId>jcseg-analyzer</artifactId>
             <version>2.1.1</version>
         </dependency>
+        <!--word分词是一个Java实现的中文分词组件，提供了多种基于词典的分词算法，并利用ngram模型来消除歧义。
+         能准确识别英文、数字，以及日期、时间等数量词，能识别人名、地名、组织机构名等未登录词。
+         同时提供了Lucene、Solr、ElasticSearch插件。-->
+        <!-- https://mvnrepository.com/artifact/org.apdplat/word -->
+        <dependency>
+            <groupId>org.apdplat</groupId>
+            <artifactId>word</artifactId>
+            <version>1.3</version>
+        </dependency>
+        <!--ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典-->
+        <dependency>
+            <groupId>org.ansj</groupId>
+            <artifactId>ansj_seg</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.ansj/ansj_lucene6_plug -->
+        <dependency>
+            <groupId>org.ansj</groupId>
+            <artifactId>ansj_lucene6_plug</artifactId>
+            <version>5.1.2.0</version>
+        </dependency>
 
         <!-- 映入JSON -->
         <dependency>

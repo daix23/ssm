@@ -13,7 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java" afterPath="$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform.iml" afterPath="$PROJECT_DIR$/platform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/platform_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/platform_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -25,7 +24,7 @@
     <file path="F:/apache-maven-3.5.0/conf/settings.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498097022729" ignored="false" />
     <file path="F:/apache-maven-3.5.0/MavenRepository/settings.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498097022729" ignored="false" />
     <file path="/jdbc.properties" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498614508548" ignored="false" />
-    <file path="/pom.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499134741650" ignored="false" />
+    <file path="/pom.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499152364172" ignored="false" />
     <file path="/UsersMapper.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498101170328" ignored="false" />
     <file path="/UsersMapper.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498102498126" ignored="false" />
     <file path="/Users.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498101185264" ignored="false" />
@@ -70,8 +69,8 @@
     <file path="/spring-service.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498792922460" ignored="false" />
     <file path="E:/2017四部合一/GIS室/1-10-浙江省五水共治信息平台/01系统源码/011系统源码/zhejiang_wsgz/platform/WebContent/zheJiangzszz/wsgz/html/zhzx/zlyy.html" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498795681656" ignored="false" />
     <file path="/lucene-config.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499067148555" ignored="false" />
-    <file path="/LuceneController.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499149622556" ignored="false" />
-    <file path="/AnalyzerTest.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499149646657" ignored="false" />
+    <file path="/LuceneController.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499150206556" ignored="false" />
+    <file path="/AnalyzerTest.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499153974828" ignored="false" />
     <file path="/AnalyzerUtil.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499133155833" ignored="false" />
     <file path="/ext.dic" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499136046098" ignored="false" />
     <file path="/JcsegAnalyzerUtil.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499137008787" ignored="false" />
@@ -153,10 +152,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="29" selection-start="8255" selection-end="8260" vertical-scroll-proportion="0.0">
+            <state line="215" column="41" selection-start="8165" selection-end="8165" vertical-scroll-proportion="0.93208826">
               <folding />
             </state>
           </provider>
@@ -165,7 +164,7 @@
       <file leaf-file-name="LuceneController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="22" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
+            <state line="130" column="55" selection-start="5061" selection-end="5061" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,35 +192,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext.dic" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ext.dic">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stopword.dic" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/stopword.dic">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnalyzerUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/AnalyzerUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="13" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JcsegAnalyzerUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/JcsegAnalyzerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -242,13 +212,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalyzerTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AnalyzerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="47" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.60910815">
+            <state line="63" column="9" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnsjAnalyzer.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/ansj/ansj_lucene6_plug/5.1.2.0/ansj_lucene6_plug-5.1.2.0.jar!/org/ansj/lucene6/AnsjAnalyzer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="53" selection-start="613" selection-end="625" vertical-scroll-proportion="-7.12">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -279,13 +258,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/quartz-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/util/AnalyzerUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ext.dic" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/util/JcsegAnalyzerUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jcseg.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/comm-config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java" />
       </list>
     </option>
@@ -434,6 +413,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="platform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.ansj:ansj_seg:5.1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1166,8 +1163,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.64357543" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35642457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6882682" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31173185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1240,41 +1237,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/6.6.0/lucene-analyzers-common-6.6.0.jar!/org/apache/lucene/analysis/util/FilesystemResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="404" selection-end="404" vertical-scroll-proportion="0.35031846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/CoordinatesMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/lucene-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-1.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ext.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dto/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="14" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
@@ -1321,13 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="29" selection-start="8255" selection-end="8260" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/comm-config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="12" selection-end="23" vertical-scroll-proportion="0.0">
@@ -1344,21 +1299,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apdplat/word/1.3.1/word-1.3.1.jar!/org/apdplat/word/segmentation/SegmentationAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apdplat/word/1.3.1/word-1.3.1.jar!/org/apdplat/word/lucene/ChineseWordAnalyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="66" selection-start="476" selection-end="476" vertical-scroll-proportion="-9.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apdplat/word/1.3.1/word-1.3.1.jar!/org/apdplat/word/segmentation/Segmentation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="176" selection-end="176" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ansj/ansj_seg/5.1.1/ansj_seg-5.1.1.jar!/org/ansj/splitWord/analysis/ToAnalysis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="22" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
+        <state line="130" column="55" selection-start="5061" selection-end="5061" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ansj/ansj_lucene6_plug/5.1.2.0/ansj_lucene6_plug-5.1.2.0.jar!/org/ansj/lucene6/AnsjAnalyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="53" selection-start="613" selection-end="625" vertical-scroll-proportion="-7.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.60910815">
+        <state line="63" column="9" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="41" selection-start="8165" selection-end="8165" vertical-scroll-proportion="0.93208826">
+          <folding />
         </state>
       </provider>
     </entry>
