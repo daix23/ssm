@@ -21,7 +21,7 @@ import java.io.StringReader;
 public class AnalyzerTest {
 
     public static void main(String args[]) throws Exception{
-        String string = "中华人民共和国在1949年建立，从此开始了新中国的伟大篇章。";
+        String string = "中华人民共和国";
         /*Analyzer analyzer = new StandardAnalyzer();
         Reader r = new StringReader(string);
         TokenStream stream=  analyzer.tokenStream("", string);
@@ -32,9 +32,10 @@ public class AnalyzerTest {
             System.out.println("" + cta + "");
         }
 */
-        Analyzer analyzer = new IKAnalyzer();
+        //Analyzer analyzer = new IKAnalyzer();
+        Analyzer analyzer = new StandardAnalyzer();
         Reader r = new StringReader(string);
-        TokenStream stream=  analyzer.tokenStream("", string);
+        TokenStream stream=  analyzer.tokenStream("remark", string);
         //获取每个单词信息,获取词元文本属性
         CharTermAttribute cta = stream.addAttribute(CharTermAttribute.class);
         stream.reset();

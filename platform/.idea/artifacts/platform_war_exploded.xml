@@ -55,6 +55,8 @@
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-join:6.6.0" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:6.6.0" />
           <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Maven: org.lionsoul:jcseg-core:2.1.1" />
+          <element id="library" level="project" name="Maven: org.lionsoul:jcseg-analyzer:2.1.1" />
         </element>
       </element>
     </root>

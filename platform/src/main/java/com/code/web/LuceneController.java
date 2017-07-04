@@ -3,24 +3,20 @@ package com.code.web;
 import com.code.dao.CoordinatesMapper;
 import com.code.dto.Result;
 import com.code.entity.Coordinates;
+import com.code.util.PropertiesUtil;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.TextField;
-import org.apache.lucene.index.DirectoryReader;
-import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.index.IndexWriter;
-import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.*;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.search.BooleanClause;
-import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.Query;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.lionsoul.jcseg.analyzer.JcsegAnalyzer;
+import org.lionsoul.jcseg.tokenizer.core.JcsegTaskConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -69,16 +65,32 @@ public class LuceneController {
     @ResponseBody
     public Result<Object> search( @RequestParam("keyword") String keyword) throws ParseException {
         long begin = System.currentTimeMillis();
+        //标准分词器，词都分成单个
         //Analyzer analyzer = new StandardAnalyzer();
         //"庖丁解牛"中文分词器java.lang.VerifyError:
         //Analyzer analyzer = new PaodingAnalyzer();
         //创建IKAnalyzer中文分词对象
-        IKAnalyzer analyzer = new IKAnalyzer();
-        //analyzer.setUseSmart(true);
+       /* IKAnalyzer analyzer = new IKAnalyzer();
+        // 使用智能分词
+        analyzer.setUseSmart(true);*/
+
+        Analyzer analyzer = new JcsegAnalyzer(JcsegTaskConfig.SIMPLE_MODE);
+        //非必须(用于修改默认配置): 获取分词任务配置实例
+        JcsegAnalyzer jcseg = (JcsegAnalyzer) analyzer;
+        JcsegTaskConfig config = jcseg.getTaskConfig();
+        //追加同义词到分词结果中, 需要在jcseg.properties中配置jcseg.loadsyn=1
+        config.setAppendCJKSyn(true);
+        //追加拼音到分词结果中, 需要在jcseg.properties中配置jcseg.loadpinyin=1
+        config.setAppendCJKPinyin(true);
+        //更多配置, 请查看com.webssky.jcseg.core.JcsegTaskConfig类
+
         String[] queryString = {keyword};//注意字段与值要一一对应哦，同下 ，查询内容，
         String[] fields = {"remark"};////注意字段与值要一一对应哦，同上，字段名称
         BooleanClause.Occur[] clauses = {BooleanClause.Occur.MUST};//这里就是 and 的关系，详细策略看文档哈
         Query query = MultiFieldQueryParser.parse(queryString, fields, clauses, analyzer);
+
+        //Query query=new TermQuery(new Term("remark",keyword));
+
         List<Coordinates> list = doSearch(query);
         System.out.println("create cost:" + (System.currentTimeMillis() - begin) / 1000 + "s");
         return new Result<Object>(true, list);
@@ -101,7 +113,22 @@ public class LuceneController {
         long begin = System.currentTimeMillis();
         // 采集数据
         List<Coordinates> list = coordinatesMapper.queryAll();
-        IndexWriterConfig writerConfig = new IndexWriterConfig(new StandardAnalyzer());
+        /*//创建IKAnalyzer中文分词对象
+        IKAnalyzer analyzer = new IKAnalyzer();
+        // 使用智能分词
+        analyzer.setUseSmart(true);*/
+
+        Analyzer analyzer = new JcsegAnalyzer(JcsegTaskConfig.SIMPLE_MODE);
+        //非必须(用于修改默认配置): 获取分词任务配置实例
+        JcsegAnalyzer jcseg = (JcsegAnalyzer) analyzer;
+        JcsegTaskConfig config = jcseg.getTaskConfig();
+        //追加同义词到分词结果中, 需要在jcseg.properties中配置jcseg.loadsyn=1
+        config.setAppendCJKSyn(true);
+        //追加拼音到分词结果中, 需要在jcseg.properties中配置jcseg.loadpinyin=1
+        config.setAppendCJKPinyin(true);
+        //更多配置, 请查看com.webssky.jcseg.core.JcsegTaskConfig类
+
+        IndexWriterConfig writerConfig = new IndexWriterConfig(analyzer);
             /*
              * 创建索引写入对象，该对象既可以把索引写入到磁盘中也可以写入到内存中。 参数说明：
              * public IndexWriter(Directory directory, IndexWriterConfig conf)
@@ -110,7 +137,7 @@ public class LuceneController {
              */
         IndexWriter indexWriter = null;
         try {
-            Directory directory = FSDirectory.open(FileSystems.getDefault().getPath("D:\\lucenceSSM\\"));
+            Directory directory = FSDirectory.open(FileSystems.getDefault().getPath(PropertiesUtil.getProperty("lucene.path")));
             indexWriter = new IndexWriter(directory, writerConfig);
             indexWriter.deleteAll(); //清除以前的index
             Document document;
@@ -154,7 +181,7 @@ public class LuceneController {
         List<Coordinates> list = new ArrayList<Coordinates>();
         try {
             // 通过searcher来搜索索引库
-            Directory directory = FSDirectory.open(FileSystems.getDefault().getPath("D:\\lucenceSSM\\"));
+            Directory directory = FSDirectory.open(FileSystems.getDefault().getPath(PropertiesUtil.getProperty("lucene.path")));
             IndexReader reader = DirectoryReader.open(directory);
             IndexSearcher indexSearcher = new IndexSearcher(reader);
             // 第二个参数：指定需要显示的顶部记录的N条

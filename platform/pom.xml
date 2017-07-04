@@ -213,6 +213,18 @@
             <artifactId>ikanalyzer</artifactId>
             <version>2012_u6</version>
         </dependency>-->
+        <!--Jcseg是基于mmseg算法的一个轻量级中文分词器-->
+        <dependency>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>jcseg-core</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>jcseg-analyzer</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
         <!-- 映入JSON -->
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
