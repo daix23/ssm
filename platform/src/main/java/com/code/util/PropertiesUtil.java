@@ -47,7 +47,7 @@ public class PropertiesUtil {
          */
         public static void setProperty(String key, String value){
             try{
-                File file = new File(PropertiesUtil.class.getClassLoader().getResource(".").getPath()+File.separator+"env.properties");
+                File file = new File(PropertiesUtil.class.getClassLoader().getResource(".").getPath()+File.separator+"comm-config.properties");
                 FileOutputStream outStream = new FileOutputStream(file);
                 env.setProperty(key, value);
                 //写入properties文件

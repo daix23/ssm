@@ -10,28 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2385a47-29da-4dfe-a802-b02dbbebe5a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java" afterPath="$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\SSM\platform\.idea\libraries\Maven__org_apache_commons_commons_pool2_2_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform.iml" afterPath="$PROJECT_DIR$/platform.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/platform_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/platform_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="platform.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498091927020" ignored="false" />
-    <file path="/web.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499047461144" ignored="false" />
+    <file path="/web.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499239349498" ignored="false" />
     <file path="/a.dummy" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498006968373" ignored="false" />
     <file path="F:/apache-maven-3.5.0/conf/settings.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498097022729" ignored="false" />
     <file path="F:/apache-maven-3.5.0/MavenRepository/settings.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498097022729" ignored="false" />
     <file path="/jdbc.properties" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498614508548" ignored="false" />
-    <file path="/pom.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499152364172" ignored="false" />
+    <file path="/pom.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499244814638" ignored="false" />
     <file path="/UsersMapper.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498101170328" ignored="false" />
     <file path="/UsersMapper.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498102498126" ignored="false" />
     <file path="/Users.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498101185264" ignored="false" />
     <file path="/UsersMapperTest.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498112864480" ignored="false" />
     <file path="/DateTimeUtil.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498112819529" ignored="false" />
-    <file path="/spring-dao.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498463864603" ignored="false" />
-    <file path="/Dummy.txt" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499128344243" ignored="false" />
+    <file path="/spring-dao.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499240880723" ignored="false" />
+    <file path="/Dummy.txt" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499236796481" ignored="false" />
     <file path="E:/2017四部合一/大地室/3-1-TZCORS在线服务系统/01系统源码/011系统源码/zjcrosproxy/zjcorsproxy/src/zjasm/servlet/InsertServlet.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498451968991" ignored="false" />
     <file path="E:/2017四部合一/大地室/3-1-TZCORS在线服务系统/01系统源码/011系统源码/zjcrosproxy/zjcorsproxy/src/zjasm/servlet/SubOrganServlet.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498451968991" ignored="false" />
     <file path="E:/2017四部合一/大地室/3-1-TZCORS在线服务系统/01系统源码/011系统源码/zjcrosproxy/zjcorsproxy/src/tzcors_apply.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1498452387087" ignored="false" />
@@ -75,6 +77,15 @@
     <file path="/ext.dic" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499136046098" ignored="false" />
     <file path="/JcsegAnalyzerUtil.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499137008787" ignored="false" />
     <file path="/comm-config.properties" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499149077827" ignored="false" />
+    <file path="/ProducerService.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499221815500" ignored="false" />
+    <file path="/ProducerServiceImpl.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499242496744" ignored="false" />
+    <file path="/activemq-config.xml" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499248072954" ignored="false" />
+    <file path="/JmsTestController.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499237075342" ignored="false" />
+    <file path="/ConsumerServiceImpl.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499242509791" ignored="false" />
+    <file path="/ConsumerService.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499242574978" ignored="false" />
+    <file path="/jms.jsp" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499242736436" ignored="false" />
+    <file path="/queue_receive.jsp" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499242862213" ignored="false" />
+    <file path="/JmsController.java" changelist="b2385a47-29da-4dfe-a802-b02dbbebe5a8" time="1499248525420" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +100,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/code/util/AnalyzerUtil.java" line="98" class="com.code.util.AnalyzerUtil" package="com.code.util">
         <option name="ENABLED" value="true" />
@@ -142,7 +154,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -152,81 +163,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="JmsController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/JmsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="41" selection-start="8165" selection-end="8165" vertical-scroll-proportion="0.93208826">
+            <state line="46" column="14" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LuceneController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java">
+      <file leaf-file-name="activemq-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/activemq-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="55" selection-start="5061" selection-end="5061" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="71" selection-start="1967" selection-end="1980" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comm-config.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/comm-config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="12" selection-end="23" vertical-scroll-proportion="0.0">
+            <state line="28" column="95" selection-start="1476" selection-end="1476" vertical-scroll-proportion="14.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JcsegAnalyzerUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/JcsegAnalyzerUtil.java">
+      <file leaf-file-name="spring-dao.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="560" selection-end="1037" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jcseg.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jcseg.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="63" selection-start="1830" selection-end="1830" vertical-scroll-proportion="0.0">
+            <state line="35" column="24" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalyzerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java">
+      <file leaf-file-name="UrlController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/UrlController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="9" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="13" selection-start="455" selection-end="455" vertical-scroll-proportion="0.49433106">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnsjAnalyzer.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/ansj/ansj_lucene6_plug/5.1.2.0/ansj_lucene6_plug-5.1.2.0.jar!/org/ansj/lucene6/AnsjAnalyzer.class">
+      <file leaf-file-name="UsersService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="53" selection-start="613" selection-end="625" vertical-scroll-proportion="-7.12">
+            <state line="11" column="17" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/ProducerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/ConsumerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="17" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/ProducerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="551" selection-end="559" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/UsersServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/ConsumerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -250,22 +271,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/code/scheduler/jobs/SecondScheduledJob.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/code/scheduler/JobsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/quartz-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/lucene-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/quartz-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/code/util/AnalyzerUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ext.dic" />
-        <option value="$PROJECT_DIR$/src/main/java/com/code/util/JcsegAnalyzerUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jcseg.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/comm-config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/listener/ConsumerMessageListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/web/JmsTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/service/ProducerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/ProducerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/service/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jms.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jms_producer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/queue_receive.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/activemq-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/web/JmsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/ConsumerServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -405,32 +426,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="platform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.ansj:ansj_seg:5.1.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -587,7 +588,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -676,9 +729,75 @@
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -690,7 +809,7 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -714,7 +833,7 @@
       <recent name="D:\IdeaProjects\SSM\platform\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnalyzerTest">
+  <component name="RunManager" selected="Tomcat Server.tomcat8">
     <configuration default="false" name="JobsTest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1149,7 +1268,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33519554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45251396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.44035673" order="2" side_tool="true" content_ui="tabs" />
@@ -1163,8 +1282,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33072627" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6882682" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31173185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.547486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40335196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1237,124 +1356,123 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dto/Result.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-spring/5.14.5/activemq-spring-5.14.5.jar!/activemq.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stopword.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/AnalyzerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="13" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/code/scheduler/JobsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="357" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jcseg.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="63" selection-start="1830" selection-end="1830" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/JcsegAnalyzerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="560" selection-end="1037" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/comm-config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="12" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="71" selection-start="1967" selection-end="1980" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apdplat/word/1.3.1/word-1.3.1.jar!/org/apdplat/word/segmentation/SegmentationAlgorithm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apdplat/word/1.3.1/word-1.3.1.jar!/org/apdplat/word/lucene/ChineseWordAnalyzer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="476" selection-end="476" vertical-scroll-proportion="-9.08">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apdplat/word/1.3.1/word-1.3.1.jar!/org/apdplat/word/segmentation/Segmentation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="176" selection-end="176" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ansj/ansj_seg/5.1.1/ansj_seg-5.1.1.jar!/org/ansj/splitWord/analysis/ToAnalysis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="-5.0">
+        <state line="2126" column="78" selection-start="96138" selection-end="96191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/LuceneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="55" selection-start="5061" selection-end="5061" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ansj/ansj_lucene6_plug/5.1.2.0/ansj_lucene6_plug-5.1.2.0.jar!/org/ansj/lucene6/AnsjAnalyzer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="613" selection-end="625" vertical-scroll-proportion="-7.12">
+        <state line="45" column="13" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.33333334">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/code/dao/AnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="9" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="41" selection-start="8165" selection-end="8165" vertical-scroll-proportion="0.93208826">
+        <state line="268" column="37" selection-start="10317" selection-end="10330" vertical-scroll-proportion="-3.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/UploadfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="121" selection-start="1638" selection-end="1654" vertical-scroll-proportion="1.1706264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="64" selection-start="677" selection-end="733" vertical-scroll-proportion="-8.653846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="579" selection-end="579" vertical-scroll-proportion="0.37796977">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="24" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/ProducerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/ConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activemq-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="95" selection-start="1476" selection-end="1476" vertical-scroll-proportion="14.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/JmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="14" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/ConsumerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/ProducerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="551" selection-end="559" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/web/UrlController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="455" selection-end="455" vertical-scroll-proportion="0.49433106">
           <folding />
         </state>
       </provider>
