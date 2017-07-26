@@ -19,5 +19,12 @@ public class UrlController {
     public String index() {
         return "../../index";
     }
+
+    //@RequestMapping注解的方法，标记多个访问
+    @RequestMapping(value={"/map"})
+    public String map() {
+        return "map";
+    }
+
 }
 
